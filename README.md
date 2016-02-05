@@ -7,7 +7,7 @@ In a reactive context you can use now `momentReactive` instead of `moment` and i
 
 ##Usage:
 
-You can use this in your template helpers to display the current time:
+You can use reactiveMoment in your template helpers to display the current time:
 
 ````
 
