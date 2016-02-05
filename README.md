@@ -32,3 +32,20 @@ Template.registerHelper("momentReactive", momentReactive);
 
 ````
 
+It can be generally used in a `Tracker.autorun`:
+
+`````
+Tracker.autorun(function(){
+  console.log(reactiveMoment());
+});
+
+`````
+
+The default tick interval is 1000ms. You can define this currently only for all reactiveMoment before startup:
+
+```
+momentReactive.interval = 60000;
+Meteor.startup(function() {
+ // use momentReactive
+});
+````
