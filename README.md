@@ -18,7 +18,7 @@ Template.myTemplate.helpers({
 	postMoment() {
 		return momentReactive(this.post.createdAt);
 	}
-}
+});
 
 // global helper is also possible
 
