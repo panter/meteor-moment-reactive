@@ -23,7 +23,7 @@ Template.myTemplate.helpers({
 
 // global helper is also possible
 
-Template.registerHelper("now", momentReactive);
+Template.registerHelper("momentReactive", momentReactive);
 
 <template name="myTemplate">
 	<p>The current time is {{now}}</p>
