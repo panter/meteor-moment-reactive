@@ -4,7 +4,7 @@ usage:
 
 `meteor add panter:moment-reactive`
 
-In a creactive context you can use now `momentReactive` instead of `moment` and it will invalidate this context every second.
+In a reactive context you can use now `momentReactive` instead of `moment` and it will invalidate this context every second.
 
 Examples:
 
