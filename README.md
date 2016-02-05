@@ -1,12 +1,11 @@
 # moment-reactive
 
-usage:
 
 `meteor add panter:moment-reactive`
 
 In a reactive context you can use now `momentReactive` instead of `moment` and it will invalidate this context every second.
 
-Examples:
+##Usage:
 
 You can use this in your template helpers to display the current time:
 
